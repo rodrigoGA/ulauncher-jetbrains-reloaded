@@ -22,7 +22,7 @@ class JetbrainsLauncherExtension(Extension):
     """ Main Extension Class  """
     ides: Dict[IdeKey, IdeData] = {
         "clion": IdeData(name="CLion", config_prefix="CLion", launcher_prefixes=["clion"]),
-        "idea": IdeData(name="IntelliJ IDEA", config_prefix="IntelliJIdea",
+        "idea": IdeData(name="IntelliJ IDEA", config_prefix="IdeaIC",
                         launcher_prefixes=["idea"]),
         "phpstorm": IdeData(name="PHPStorm", config_prefix="PHPStorm",
                             launcher_prefixes=["phpstorm"]),
